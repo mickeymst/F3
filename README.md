@@ -5,5 +5,5 @@ Recent ubiquity and disruptive impacts of large language models (LLMs) have rais
 
 
 ## Description
-This repository contains the codebase and dataset for the paper "Fighting Fire with Fire: Can Language Models Detect Misinformation Better Than Customized Detectors?".
+This repository contains the codebase and dataset for the paper "Fighting Fire with Fire: Can Language Models Detect Misinformation Better Than Customized Detectors?". The codebase will be available once accepted. 
 
