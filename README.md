@@ -8,7 +8,7 @@ Recent ubiquity and disruptive impacts of large language models (LLMs) have rais
 This repository contains the codebase and dataset for the paper "Fighting Fire with Fire: The Dual Role of LLMs in Crafting and Detecting Elusive Disinformation."
 
 ## Code
-The codebook repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB and PURIFY
+The codebase repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB, and PURIFY Framework IPYNBs
 
 F3 Data Generation IPYNB
 This Jupyter Notebook provides code for generating synthetic text data using OpenAI's GPT-3.5 Turbo language model. It focuses on creating fake news articles and social media posts by perturbing real news content.
