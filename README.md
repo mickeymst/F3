@@ -7,7 +7,7 @@ Recent ubiquity and disruptive impacts of large language models (LLMs) have rais
 ## Description
 This repository contains the codebase and dataset for the paper "Fighting Fire with Fire: The Dual Role of LLMs in Crafting and Detecting Elusive Disinformation."
 
-## Code
+## Codebase
 The codebase repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB, and PURIFY Framework IPYNBs. Notebooks are structured intuitively, making it easy for users to follow along and modify according to their specific needs.
 
 #### Getting Started
