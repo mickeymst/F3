@@ -10,7 +10,7 @@ This repository contains the codebase and dataset for the paper "Fighting Fire w
 ## Code
 The codebase repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB, and PURIFY Framework IPYNBs
 
-F3 Data Generation IPYNB
+### F3 Data Generation IPYNB
 This Jupyter Notebook provides code for generating synthetic text data using OpenAI's GPT-3.5 Turbo language model. It focuses on creating fake news articles and social media posts by perturbing real news content.
 
 The code mounts Google Drive to access the dataset and loads requirements like OpenAI Python API, Pandas, UUID, etc. It contains prompt engineering functions to create perturbation-based prompts to generate fake content and paraphrasing functions to rewrite real news.
