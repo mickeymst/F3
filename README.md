@@ -8,7 +8,13 @@ Recent ubiquity and disruptive impacts of large language models (LLMs) have rais
 This repository contains the codebase and dataset for the paper "Fighting Fire with Fire: The Dual Role of LLMs in Crafting and Detecting Elusive Disinformation."
 
 ## Code
-The codebase repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB, and PURIFY Framework IPYNBs
+The codebase repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB, and PURIFY Framework IPYNBs. Notebooks are structured intuitively, making it easy for users to follow along and modify according to their specific needs.
+
+#### Getting Started
+To use this notebook:
+1. Clone the repository.
+2. Ensure you have Jupyter Notebook installed, or use Google Colab for an online experience.
+3. Follow the instructions within the notebook to mount your Google Drive and access your datasets.
 
 ### [F3] Fighting Fire With Fire Generation IPYNB
 #### Overview
@@ -17,11 +23,9 @@ The code mounts Google Drive to access the dataset and loads requirements like O
 
 #### Key functions include:
 
-* ai_text_generator: Takes in parameters like prompt type, human text, and article type and calls ChatGPT API to generate synthetic text.
-
-* process_row: Helper function to process single rows from the dataset using ai_text_generator.
-
-* Main generation logic: Iterates over prompt types like "Minor," "Major," and "Critical" using process_row in ThreadPoolExecutor to generate synthetic datasets in a multi-threaded manner. Saves output content incrementally.
+- **ai_text_generator**: Takes in parameters like prompt type, human text, and article type and calls ChatGPT API to generate synthetic text.
+- **process_row**: Helper function processes single rows from the dataset using ai_text_generator.
+- **Main generation logic**: Iterates over prompt types like "Minor," "Major," and "Critical" using process_row in ThreadPoolExecutor to generate synthetic datasets in a multi-threaded manner. Saves output content incrementally.
 
 The pipeline allows configuring different perturbation intensities, content types, and output folders. The notebook showcases sample output data, including DataFrame summaries. It aims to provide a template for researchers to configure and execute automated mass-scale synthetic text generation for various research objectives."
 
@@ -33,12 +37,10 @@ The pipeline allows configuring different perturbation intensities, content type
 #### Key Features
 - **Google Drive Integration**: Seamlessly connect and access data stored in Google Drive, facilitating easy data management and retrieval.
 - **Classification Prompt Engineering**: Specialized focus on crafting effective prompts for classification problems, enhancing model performance and accuracy.
-- **User-Friendly Interface**: The notebook is structured intuitively, making it easy for users to follow along and modify according to their specific needs.
+- **Main detection logic**: Iterates over prompt types that use In-context learning and semantic reasoning, such as Chain-of-Thoughts (CoT)
 
-#### Getting Started
-To use this notebook:
-1. Clone the repository.
-2. Ensure you have Jupyter Notebook installed, or use Google Colab for an online experience.
-3. Follow the instructions within the notebook to mount your Google Drive and access your datasets.
+
+
+
 
 
