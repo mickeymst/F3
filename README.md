@@ -16,8 +16,7 @@ To use this notebook:
 2. Ensure you have Jupyter Notebook installed, or use Google Colab for an online experience.
 3. Follow the instructions within the notebook to mount your Google Drive and access your datasets.
 
-### [F3] Fighting Fire With Fire Generation IPYNB
-[![F3] Fighting Fire With Fire Generation](https://github.com/mickeymst/F3/blob/main/F3_Codebase/%5BF3%5D_Fighting_Fire_With_Fire_Data_Generation.ipynb)
+### [![F3] Fighting Fire With Fire Generation](https://github.com/mickeymst/F3/blob/main/F3_Codebase/%5BF3%5D_Fighting_Fire_With_Fire_Data_Generation.ipynb)
 
 #### Overview
 This Jupyter Notebook provides code for generating synthetic text data using OpenAI's GPT-3.5 Turbo language model. It focuses on creating fake news articles and social media posts by perturbing real news content.
