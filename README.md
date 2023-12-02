@@ -16,7 +16,8 @@ To use this notebook:
 2. Ensure you have Jupyter Notebook installed, or use Google Colab for an online experience.
 3. Follow the instructions within the notebook to mount your Google Drive and access your datasets.
 
-### [![F3] Fighting Fire With Fire Generation](https://github.com/mickeymst/F3/blob/main/F3_Codebase/%5BF3%5D_Fighting_Fire_With_Fire_Data_Generation.ipynb)
+### [F3] Fighting Fire With Fire Generation IPYNB
+[IPYNB Notebook](https://github.com/mickeymst/F3/blob/main/F3_Codebase/%5BF3%5D_Fighting_Fire_With_Fire_Data_Generation.ipynb)
 
 #### Overview
 This Jupyter Notebook provides code for generating synthetic text data using OpenAI's GPT-3.5 Turbo language model. It focuses on creating fake news articles and social media posts by perturbing real news content.
@@ -31,7 +32,7 @@ The code mounts Google Drive to access the dataset and loads requirements like O
 The pipeline allows configuring different perturbation intensities, content types, and output folders. The notebook showcases sample output data, including DataFrame summaries. It aims to provide a template for researchers to configure and execute automated mass-scale synthetic text generation for various research objectives."
 
 ### [F3] Fighting Fire With Fire Detection IPYNB
-[![F3] Fighting Fire With Fire Detection](https://github.com/mickeymst/F3/blob/main/F3_Codebase/%5BF3%5D_Fighting_Fire_With_Fire_Detection.ipynb)
+[IPYNB Notebook](https://github.com/mickeymst/F3/blob/main/F3_Codebase/%5BF3%5D_Fighting_Fire_With_Fire_Detection.ipynb)
 
 #### Overview
 "Fighting Fire With Fire Detection" is a comprehensive Jupyter notebook designed for advanced data analysis and machine learning inference tailored to binary classification tasks. This notebook is an essential tool for researchers and data scientists aiming to leverage external datasets, particularly those stored on Google Drive, for insightful data exploration and model inference.
