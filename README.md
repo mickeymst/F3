@@ -28,7 +28,6 @@ The `F3_Dataset` repository is organized to facilitate easy access and understan
       - **article_type: social media post**
         - `label: fake` - Contains post-GPT fake social media posts from the F3 source.
         - `label: real` - Contains post-GPT real social media posts from the F3 source.
-    - Additional dataset sources and types under post-GPT if available.
 
   - **pre_post_GPT: pre-GPT**
     - **dataset_source: CoAID**
