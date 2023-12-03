@@ -44,52 +44,6 @@ The `F3_Dataset` repository is organized to facilitate easy access and understan
 
 This structured repository is designed for researchers and developers working in the domain of misinformation detection and natural language processing. Users can navigate through the categories based on their requirement of pre- or post-GPT data, the source of the data, and the type (news article or social media post). The labels `fake` and `real` provide a clear demarcation for supervised learning tasks.
 
-### Dataset Structure
-
-F3_Dataset  
-├── Train-Test-Split  
-│   │  
-│   ├── pre_post_GPT: post-GPT  
-│   │   │  
-│   │   ├── dataset_source: F3  
-│   │   │   │  
-│   │   │   ├── article_type: news article  
-│   │   │   │   ├── label: fake  
-│   │   │   │   └── label: real  
-│   │   │   │  
-│   │   │   └── article_type: twitter post  
-│   │   │       ├── label: fake  
-│   │   │       └── label: real  
-│   │   │  
-│   │   └── (Other dataset sources and types under post-GPT if any)  
-│   │  
-│   ├── pre_post_GPT: pre-GPT  
-│   │   │  
-│   │   ├── dataset_source: CoAID  
-│   │   │   │  
-│   │   │   ├── article_type: news article  
-│   │   │   │   ├── label: fake  
-│   │   │   │   └── label: real  
-│   │   │   │  
-│   │   │   └── article_type: twitter post  
-│   │   │       ├── label: fake  
-│   │   │       └── label: real  
-│   │   │  
-│   │   ├── dataset_source: FakeNewsNet  
-│   │   │   │  
-│   │   │   └── article_type: news article  
-│   │   │       ├── label: fake  
-│   │   │       └── label: real  
-│   │   │  
-│   │   └── dataset_source: F3  
-│   │       │  
-│   │       └── article_type: twitter post  
-│   │           ├── label: fake  
-│   │           └── label: real  
-│   │  
-└── Full Clean (PURIFY) Dataset  
-
-
 
 ## Codebase
 The codebase repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB, and PURIFY Framework IPYNBs. Notebooks are structured intuitively, making it easy for users to follow along and modify according to their specific needs.
