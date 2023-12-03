@@ -7,6 +7,89 @@ Recent ubiquity and disruptive impacts of large language models (LLMs) have rais
 ## Description
 This repository contains the codebase and dataset for the paper "Fighting Fire with Fire: The Dual Role of LLMs in Crafting and Detecting Elusive Disinformation."
 
+## F3 Dataset 
+Certainly! Here's a descriptive overview of the structure for use on GitHub:
+
+---
+
+## F3_Dataset Structure Overview
+
+The `F3_Dataset` repository is organized to facilitate easy access and understanding of our diverse datasets, particularly focusing on the differentiation between pre- and post-GPT datasets, as well as various sources and types of data. It's structured to support machine learning tasks, especially for projects dealing with fake and real news detection in both news articles and social media posts.
+
+### Structure Breakdown
+
+- **Train-Test-Split**: This primary directory contains split datasets used for training and testing models. It's crucial for ensuring model robustness and generalization. The directory is subdivided as follows:
+
+  - **pre_post_GPT: post-GPT**
+    - **dataset_source: F3**
+      - **article_type: news article**
+        - `label: fake` - Contains post-GPT fake news articles from the F3 source.
+        - `label: real` - Contains post-GPT real news articles from the F3 source.
+      - **article_type: social media post**
+        - `label: fake` - Contains post-GPT fake social media posts from the F3 source.
+        - `label: real` - Contains post-GPT real social media posts from the F3 source.
+    - Additional dataset sources and types under post-GPT if available.
+
+  - **pre_post_GPT: pre-GPT**
+    - **dataset_source: CoAID**
+      - Similar structure as above for CoAID source.
+    - **dataset_source: FakeNewsNet**
+      - Similar structure as above for FakeNewsNet source.
+    - **dataset_source: F3**
+      - Similar structure as above for F3 source, but for pre-GPT datasets.
+
+- **Full Clean (PURIFY) Dataset**: This directory contains datasets that have undergone a comprehensive cleaning and purification process. It's ideal for users who require high-quality, clean data for advanced analytics and machine learning applications.
+
+### Usage
+
+This structured repository is designed for researchers and developers working in the domain of misinformation detection and natural language processing. Users can navigate through the categories based on their requirement of pre- or post-GPT data, the source of the data, and the type (news article or social media post). The labels `fake` and `real` provide a clear demarcation for supervised learning tasks.
+
+### Dataset Structure
+F3_Dataset
+|
+├── Train-Test-Split
+|   |
+|   ├── pre_post_GPT: post-GPT
+|   |   |
+|   |   ├── dataset_source: F3
+|   |   |   |
+|   |   |   ├── article_type: news article
+|   |   |   |   ├── label: fake
+|   |   |   |   └── label: real
+|   |   |   |
+|   |   |   └── article_type: twitter post
+|   |   |       ├── label: fake
+|   |   |       └── label: real
+|   |   |
+|   |   └── (Other dataset sources and types under post-GPT if any)
+|   |
+|   ├── pre_post_GPT: pre-GPT
+|   |   |
+|   |   ├── dataset_source: CoAID
+|   |   |   |
+|   |   |   ├── article_type: news article
+|   |   |   |   ├── label: fake
+|   |   |   |   └── label: real
+|   |   |   |
+|   |   |   └── article_type: twitter post
+|   |   |       ├── label: fake
+|   |   |       └── label: real
+|   |   |
+|   |   ├── dataset_source: FakeNewsNet
+|   |   |   |
+|   |   |   └── article_type: news article
+|   |   |       ├── label: fake
+|   |   |       └── label: real
+|   |   |
+|   |   └── dataset_source: F3
+|   |       |
+|   |       └── article_type: twitter post
+|   |           ├── label: fake
+|   |           └── label: real
+|   |
+└── Full Clean (PURIFY) Dataset
+
+
 ## Codebase
 The codebase repo folder consists of three Jupyter Notebooks that can be easily run through Google Colab: F3 Data Generation IPYNB, F3 Data Generation IPYNB, and PURIFY Framework IPYNBs. Notebooks are structured intuitively, making it easy for users to follow along and modify according to their specific needs.
 
